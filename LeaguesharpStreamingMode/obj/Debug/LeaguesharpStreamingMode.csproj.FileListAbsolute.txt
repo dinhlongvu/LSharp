@@ -1,7 +1,0 @@
-C:\Users\CRTEAM\Downloads\LeaguesharpStreamingMode-master\LeaguesharpStreamingMode\bin\Release\LeaguesharpStreamingMode.exe.config
-C:\Users\CRTEAM\Downloads\LeaguesharpStreamingMode-master\LeaguesharpStreamingMode\bin\Release\LeaguesharpStreamingMode.exe
-C:\Users\CRTEAM\Downloads\LeaguesharpStreamingMode-master\LeaguesharpStreamingMode\bin\Release\LeaguesharpStreamingMode.pdb
-C:\Users\CRTEAM\Downloads\LeaguesharpStreamingMode-master\LeaguesharpStreamingMode\obj\Debug\LeaguesharpStreamingMode.Properties.Resources.resources
-C:\Users\CRTEAM\Downloads\LeaguesharpStreamingMode-master\LeaguesharpStreamingMode\obj\Debug\LeaguesharpStreamingMode.csproj.GenerateResource.Cache
-C:\Users\CRTEAM\Downloads\LeaguesharpStreamingMode-master\LeaguesharpStreamingMode\obj\Debug\LeaguesharpStreamingMode.exe
-C:\Users\CRTEAM\Downloads\LeaguesharpStreamingMode-master\LeaguesharpStreamingMode\obj\Debug\LeaguesharpStreamingMode.pdb
