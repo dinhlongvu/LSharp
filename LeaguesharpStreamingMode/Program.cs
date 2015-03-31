@@ -215,9 +215,16 @@ namespace LeaguesharpStreamingMode
             var appDataDir = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
             foreach (var dir in Directory.GetDirectories(appDataDir, "*", SearchOption.TopDirectoryOnly))
             {
-                var temp = dir.Split(new[] { "\\" }, StringSplitOptions.None).Last();
-                if (temp.StartsWith("LS") && temp.Length == 10)
-                    return dir;
+                var temp = dir.Split(new[] { "\\" }, StringSplitOptions.RemoveEmptyEntries).Last();
+                if (temp.StartsWith("LS"))
+                {
+                    foreach (var child in Directory.GetDirectories(dir, "*", SearchOption.TopDirectoryOnly))
+                    {
+                        if (child.Split(new[] {"\\"}, StringSplitOptions.RemoveEmptyEntries).Last() == "Repositories")
+                            return dir;
+                    }
+                    
+                }
             }
             return string.Empty;
         }
