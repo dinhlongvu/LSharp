@@ -4,4 +4,5 @@ Streaming mode for Leaguesharp
 -It will restore the original code when unloaded.
 
 Copy LeaguesharpStreamingMode.exe file into LeagueSharp folder, run exe file
+
 Credit to stefsot - mktester http://joduska.me
